@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Welcome</title>
+</head>
+
+<style>
+
+body {
+margin: 0px;
+
+}
+
+
+
+#NavContainer {
+margin-top: -50%;
+margin-left: 37%;
+font-size: 22px;
+z-index: 10;
+position: relative;
+text-shadow: 0 12px 12px rgb(0,0,0);
+}
+@media screen and (max-width: 1400px) {
+  #NavContainer { margin-top: -56%;}
+}
+@media screen and (max-width: 1300px) {
+  #NavContainer { margin-top: -60%;}
+}
+@media screen and (max-width: 1200px) {
+  #NavContainer { margin-top: -64%;}
+}
+@media screen and (max-width: 1100px) {
+  #NavContainer { margin-top: -72%;}
+}
+@media screen and (max-width: 1000px) {
+  #NavContainer { margin-top: -78%;}
+}
+@media screen and (max-width: 900px) {
+  #NavContainer { margin-top: -88%;}
+}
+@media screen and (max-width: 800px) {
+  #NavContainer { margin-top: -97%; font-size: 12px;}
+}
+@media screen and (max-width: 700px) {
+  #NavContainer { margin-top: -115%;}
+}
+@media screen and (max-width: 600px) {
+  #NavContainer { margin-top: -130%;}
+}
+@media screen and (max-width: 500px) {
+  #NavContainer { margin-top: -160%;}
+}
+li  {
+
+display: inline-block;
+list-style-type: none;
+
+} 
+
+
+li a {
+color: white;
+text-decoration: none;
+padding: 20px 15px;
+}
+
+li a:hover {
+  font-size: 1.7em;
+}
+
+
+
+#WelcomeMovie {
+
+height: auto;
+width: 100%;
+
+background-size: cover;
+
+}
+
+#WelcomeText {
+color: white;
+margin-left: 42%;
+margin-top: -50%;
+position: relative;
+
+}
+
+
+
+#vidcontainer {
+width: 100%;
+height: 752px;
+overflow: hidden;
+
+
+}
+
+#overlay {
+position: absolute;
+background-color: rgba(0,0,0,0.5);
+top: 0;
+bottom: 0;
+height: 752px;
+width: 100%;
+
+}
+
+</style>
+
+
+<body>
+
+<div id="overlay"></div>
+
+
+<div id="vidcontainer">
+
+
+<video id="WelcomeMovie" autoplay> 
+ 
+<source src="WelcomeVideo.mp4" type="video/mp4" />
+
+</video>
+
+  <div id="WelcomeText">
+  <h1>Welcome To My World!</h1>
+  </div>
+
+</div>
+
+
+
+<div id="NavContainer">
+
+  <nav>
+    <ul>
+      <li><a href="HomePage.html">Home</a></li>
+      <li><a href="WorkPage.html">Work</a></li>
+      <li><a href="ContactPage.html">Contact</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+    </ul>
+  </nav>
+
+</div>
+
+
+
+
+</body>
+
+
+</html>
