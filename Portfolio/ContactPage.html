@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+</head>
+
+<style>
+
+body {
+margin: 0px;
+}
+
+#overlay {
+position: absolute;
+background-color: rgba(0,0,0,0.8);
+height: 652px;
+width: 100%;
+}
+
+ul {
+height: 60px;
+width: 475px;
+float: right;
+list-style-type: none;
+font-size: 22px;
+position: relative;
+z-index: 5;
+margin-right: 2%;
+}
+
+@media screen and (max-width: 500px) {
+  ul { font-size: 0.7em; margin-left: 31%; position: absolute; }
+}
+
+
+
+li {
+display: inline-block;
+
+
+}
+
+li a {
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+}
+
+li a:hover {
+  font-size: 1.7em;
+}
+
+#ContactImageContainer {
+width: 100%;
+height: 652px;
+background-size: 100% 100%;
+
+background-image: url("ContactPic.jpg");
+background-repeat: no-repeat;
+
+}
+
+
+#box {
+position: relative;
+z-index: 5;
+color: orange;
+text-align: center;
+font-size: 36px;
+margin-top: -30%;
+margin-right: 0%;
+text-shadow: 0 8px 8px rgb(0,0,0);
+}
+@media screen and (max-width: 1200px) {
+  #box { margin-top: -40%; }
+}
+@media screen and (max-width: 800px) {
+  #box { margin-top: -60%; }
+}
+
+
+
+
+
+
+#Summary {
+height: 200px;
+width: 100%;
+color: rgba(100%,100%,100%, 1.0);
+font-size: 20px;
+text-align: center;
+text-shadow: 0 8px 8px rgb(0,0,0);
+margin-top: 10%;
+z-index: 10;
+position: absolute;
+margin-top 0;
+}
+
+@media screen and (max-width: 1300px) {
+  #Summary { margin-top: 10%; }
+}
+@media screen and (max-width: 800px) {
+  #Summary { margin-top: 10%; }
+}
+
+@media screen and (max-width: 500px) {
+  #Summary { margin-top: 10%; }
+}
+
+
+</style>
+
+<body>
+
+<div id="Top">
+  
+<div id="overlay">
+
+</div>
+<div id="NavContainer">
+  <nav>
+    <ul>
+      <li><a href="HomePage.html">Home</a></li>
+      <li><a href="WorkPage.html">Work</a></li>
+      <li><a href="ContactPage.html">Contact</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div id="ContactImageContainer">
+
+
+</div>
+
+<div id="box">
+Contact Information
+
+  
+
+</div>
+
+<div id="Summary">
+<p>Email: clinteverettscript@gmail.com</p>
+
+
+</div>
+
+
+
+</body>
+
+</html>
