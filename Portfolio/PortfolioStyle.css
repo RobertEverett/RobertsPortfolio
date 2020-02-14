@@ -155,41 +155,13 @@ color: white;
 font-size: 20px;
 height: 200px;
 width: 100%;
-margin-top: 20%;
+margin-top: 200px;
 position: absolute;
 text-align: center;
 z-index: 2;
 }
 
-@media screen and (max-width: 1300px) {
-  #Summary { margin-top: 30%; }
-}
 
-@media screen and (max-width: 1200px) {
-  #Summary { margin-top: 30%; }
-}
-
-@media screen and (max-width: 1100px) {
-  #Summary { margin-top: 30%; }
-}
-
-@media screen and (max-width: 1000px) {
-  #Summary { margin-top: 30%; }
-}
-
-@media screen and (max-width: 900px) {
-  #Summary { margin-top: 40%; }
-}
-
-
-@media screen and (max-width: 700px) {
-  #Summary { margin-top: 50%; }
-}
-
-
-@media screen and (max-width: 500px) {
-  #Summary { margin-top: 50%; }
-}
 
 
 
