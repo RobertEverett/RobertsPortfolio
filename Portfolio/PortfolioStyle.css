@@ -1,9 +1,6 @@
 <style>
 
-
-
 body {
-
 }
 
 #overlay {
@@ -15,32 +12,17 @@ z-index: 1;
 }
 
 #navcontainer {
-
-
 height: 50px;
 width: 100%;
-
-
 }
 
-
-
-
-
-
 li  {
-
 display: inline-block;
 list-style-type: none;
 margin-left: 20px;
 position: relative;
 z-index: 2;
 } 
-
-
-
-
-
 
 li a {
 color: white;
@@ -50,7 +32,6 @@ text-decoration: none;
 text-shadow: 0 8px 8px rgb(0,0,0);
 position: relative;
 z-index: 2;
-
 }
 
 li a::after {
@@ -65,7 +46,6 @@ bottom: 0%; left: 0%;;
 border-radius: 15px;
 opacity: 0;
 transition: all 300ms ease;
-
 }
 
 li a:hover::after {
@@ -81,12 +61,7 @@ height: 650px;
 overflow: hidden;
 position: relative;
 width: 100%;
-
-
 }
-
-
-
 
 #namecontainer {
 color: orange;
@@ -107,8 +82,6 @@ z-index: 2;
 	100% { margin-left: 45%;}
 }
 
-
-
 #box {
 height: 100px;
 width: 55%;
@@ -126,8 +99,6 @@ animation-fill-mode: forwards;
 z-index: 2;
 }
 
-
-
 @keyframes sumani{
 
 	0% {margin-left: 200%;}
@@ -139,16 +110,12 @@ z-index: 2;
 @media screen and (max-width: 1100px) {
   #box { width: 65%; }
 }
-
 @media screen and (max-width: 900px) {
   #box { width: 60%; }
 }
-
 @media screen and (max-width: 750px) {
   #box { width: 65%;}
 }
-
-
 
 #Summary {
 color: white;
@@ -162,18 +129,11 @@ text-align: center;
 z-index: 2;
 }
 
-
-
-
-
-
-
 #skills {
 height: 300px;
 width: 80%;
 margin-top: 10%;
 margin-left: 10%;
-
 }
 
 #skillhead {
@@ -201,18 +161,7 @@ height: 1150px;
 width: 100%;
 margin-top: 200px;
 position: relative;
-
-
-
 }
-
-
-
-
-
-
-
-
 
 #Projects {
 display: inline-block;
@@ -221,9 +170,6 @@ width: 80%;
 margin-left: 10%;
 position: relative;
 }
-
-
-
 
 .imgresize {
 height: 30%;
@@ -236,8 +182,6 @@ font-style: italic;
 text-align: center;
 position: static;
 }
-
-
 
 .ProjectTitle{
 color: orange;
@@ -254,16 +198,11 @@ display: inline-block;
 float: left;
 margin-left: 2%;
 margin-top: 5%;
-
 }
 
-
-
-}
 @media screen and (max-width: 1400px) {
   .PortfolioItems { height: 37%;}
 }
-
 @media screen and (max-width: 1300px) {
   .PortfolioItems { height: 35%;}
 }
@@ -294,13 +233,8 @@ width: 100%;
 text-align: center;
 }
 
-
-
-
 .codelink {
 color: white;
-
-
 }
 
 #ResumeTitle {
@@ -323,7 +257,6 @@ height: 200px;
 width: 100%;
 position: absolute;
 }
-
 
 #contactimg {
 background-image: url("ContactPic.jpg");
@@ -372,7 +305,5 @@ z-index: 5;
 @media screen and (max-width: 600px) {
   #emailcontainer { margin-top: 15%; font-size: 24px;}
 }
-
-
 
 </style>
