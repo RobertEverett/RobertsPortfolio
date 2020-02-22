@@ -147,12 +147,25 @@ height: 100px;
 width: 10%;
 margin-left: 2%;
 margin-top: 5%;
+transition: all 1s;
+}
+
+.icons:hover {
+transform: scale(1.15);
 }
 
 #css3icon {
 margin-bottom: 1%;
+transition: all 1s;
 }
 
+#css3icon:hover {
+transform: scale(1.15);
+}	
+
+#css3icon {
+margin-bottom: 1%;
+}
 
 #ProjectContainer{
 background-image: url(PaperLanterns.jpg);
@@ -226,7 +239,6 @@ margin-top: 5%;
 @media screen and (max-width: 700px) {
   .PortfolioItems { height: 30%; margin-left: 2% }
 }
-
 
 .projectdesc {
 color: orange;
