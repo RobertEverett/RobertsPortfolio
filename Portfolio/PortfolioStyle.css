@@ -255,6 +255,14 @@ width: 100%;
 text-align: center;
 }
 
+#restcode {
+margin-top: 67px;
+}
+
+@media screen and (max-width: 500px) {
+  #restcode { margin-top: 32px; }
+}
+
 .codelink {
 color: white;
 }
