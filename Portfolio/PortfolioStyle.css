@@ -1,0 +1,237 @@
+body { 
+background: url("space.jpg") no-repeat fixed center;
+background-size: 100% 100%;
+}
+   
+.navcontainer {
+height: 85px;
+width: 100%;
+
+}
+
+.navcontainer:after {
+content:"";
+background: -webkit-linear-gradient(left,#FFFFFF,#1A1818, #1A1818);
+display: block;
+height:10px;
+width: 100%;
+position: absolute;
+bottom: 0;
+}
+
+
+.btn {
+margin-left: 2%;
+margin-top: 10px;
+font-size: 1.5em;
+background-color: transparent;
+border-color: white;
+}
+@media screen and (max-width: 500px) {
+  .btn { margin-left: 0%; }
+  }
+
+.mbtn{
+background-color: rgba(0, 0, 255, 0.993);
+}
+
+#skillbtn {
+margin-left: 30%;
+}
+@media screen and (max-width: 800px) {
+#skillbtn { margin-left: 25%; }
+}
+@media screen and (max-width: 750px) {
+#skillbtn { margin-left: 20%; }
+}    
+@media screen and (max-width: 600px) {
+#skillbtn { margin-left: 10%; }
+}
+@media screen and (max-width: 600px) {
+#skillbtn { margin-left: 10%; }
+}
+@media screen and (max-width: 550px) {
+#skillbtn { margin-left: 5%; }
+}
+@media screen and (max-width: 525px) {
+#skillbtn { margin-left: 3%; }
+}
+
+@media screen and (max-width: 425px) {
+  #contactbtn { display: none; }
+  }
+
+
+.modal {
+height: 620px;
+width: 100%;
+margin-top: 125px;
+}
+
+.modal-body {
+  background: -webkit-linear-gradient(left,#FFFFFF,#1A1818, #1A1818)
+}
+
+.modal-backdrop {
+z-index: -1;
+}
+
+#contactbody {
+color: white;
+}
+
+
+#emailtitle {
+margin-left: 37%;
+}
+@media screen and (max-width: 575px) {
+  #emailtitle { margin-left: 45%; }
+  }
+
+#email {
+  margin-left: 5%;
+}
+@media screen and (max-width: 575px) {
+  #email { margin-left: 25%; }
+  }
+
+.iconcontaineritems {
+display: inline-block;
+height: 125px;
+width: 125px;
+}
+  
+.icons {
+height: 100px;
+width: 75%;
+margin-top: 15px;
+margin-left: 10%;
+transition: all 1s;
+}
+  
+.icons:hover {
+transform: scale(1.1);
+}
+  
+  
+#css3icon {
+height: 125px;
+margin-left: 10%;
+margin-top: -5%;
+transition: all 1s;
+}
+  
+#css3icon:hover {
+transform: scale(1.1);
+}
+
+#ProjectContainer {
+height: 1600px;
+width: 100%;
+}
+ 
+.over {
+height: 50%;
+width: 100%;
+overflow: hidden;
+}
+  
+.imgresize {
+height: 225px;
+width: 100%;
+transition: all 1s;
+}
+  
+.imgresize:hover {
+transform: scale(1.05);
+}
+  
+  
+.ProjectTitle {
+color: #E8E7E7;
+font-style: italic;
+text-align: center;
+}
+  
+.PortfolioItems {
+height: 500px;
+width: 36%;
+background-color: black;
+border: 4px solid silver;
+float: left;
+margin-left: 2%;
+margin-top: 2%;
+}
+
+
+  
+.projectdesc {
+color: orange;
+font-style: italic;
+text-align: center;
+margin-left: 2%;
+}
+  
+.codecontainer {
+height: 50px;
+width: 100%;
+text-align: center;
+}
+  
+.codelink {
+color: white;
+}
+
+
+#resumetab {
+margin-left: 55%;
+margin-top: .5%;
+font-size: 16px;
+font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+  #resumetab { margin-left: 20%; }
+  }
+
+#resumelink {
+margin-top: .5%;
+padding-left: 1%;
+}
+
+#namecontainer {
+width: 325px;
+color: #E8E7E7;
+cursor: default;
+float: left;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+}
+    
+.namehead {
+margin-left: 10px; 
+}
+@media screen and (max-width: 700px) {
+.namehead { font-size: 24px; }
+}
+  
+    
+#box {
+float: right;
+overflow: hidden;
+color: #E8E7E7;
+cursor: default;
+font-size: 24px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.desc {
+float: right;
+margin-right: 10px;
+}
+@media screen and (max-width: 700px) {
+.desc { font-size: 24px; }
+}
+      
