@@ -6,8 +6,10 @@ background-size: 100% 100%;
 .navcontainer {
 height: 85px;
 width: 100%;
-
+display: flex;
+justify-content: center;
 }
+
 
 .navcontainer:after {
 content:"";
@@ -21,45 +23,20 @@ bottom: 0;
 
 
 .btn {
+height: 50px;
 margin-left: 2%;
 margin-top: 10px;
 font-size: 1.5em;
 background-color: transparent;
 border-color: white;
 }
-@media screen and (max-width: 500px) {
-  .btn { margin-left: 0%; }
+@media screen and (max-width: 450px) {
+  .btn { margin-left: 0%; width: 100px; }
   }
 
 .mbtn{
 background-color: rgba(0, 0, 255, 0.993);
 }
-
-#skillbtn {
-margin-left: 30%;
-}
-@media screen and (max-width: 800px) {
-#skillbtn { margin-left: 25%; }
-}
-@media screen and (max-width: 750px) {
-#skillbtn { margin-left: 20%; }
-}    
-@media screen and (max-width: 600px) {
-#skillbtn { margin-left: 10%; }
-}
-@media screen and (max-width: 600px) {
-#skillbtn { margin-left: 10%; }
-}
-@media screen and (max-width: 550px) {
-#skillbtn { margin-left: 5%; }
-}
-@media screen and (max-width: 525px) {
-#skillbtn { margin-left: 3%; }
-}
-
-@media screen and (max-width: 425px) {
-  #contactbtn { display: none; }
-  }
 
 
 .modal {
@@ -69,7 +46,7 @@ margin-top: 125px;
 }
 
 .modal-body {
-  background: -webkit-linear-gradient(left,#FFFFFF,#1A1818, #1A1818)
+  background: -webkit-linear-gradient(left,#FFFFFF,#1A1818, #1A1818);
 }
 
 .modal-backdrop {
@@ -77,6 +54,7 @@ z-index: -1;
 }
 
 #contactbody {
+background: black;
 color: white;
 }
 
@@ -234,4 +212,3 @@ margin-right: 10px;
 @media screen and (max-width: 700px) {
 .desc { font-size: 24px; }
 }
-      
