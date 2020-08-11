@@ -46,7 +46,11 @@ margin-top: 125px;
 }
 
 .modal-body {
-  background: -webkit-linear-gradient(left,#FFFFFF,#1A1818, #1A1818);
+background: -webkit-linear-gradient(left,#FFFFFF,#1A1818, #1A1818);
+}
+
+.modal-content {
+border-radius: 25px;
 }
 
 .modal-backdrop {
