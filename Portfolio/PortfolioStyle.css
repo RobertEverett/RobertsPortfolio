@@ -10,7 +10,6 @@ display: flex;
 justify-content: center;
 }
 
-
 .navcontainer:after {
 content:"";
 background: -webkit-linear-gradient(left,#FFFFFF,#1A1818, #1A1818);
@@ -20,7 +19,6 @@ width: 100%;
 position: absolute;
 bottom: 0;
 }
-
 
 .btn {
 height: 50px;
@@ -37,7 +35,6 @@ border-color: white;
 .mbtn{
 background-color: rgba(0, 0, 255, 0.993);
 }
-
 
 .modal {
 height: 620px;
@@ -61,7 +58,6 @@ z-index: -1;
 background: black;
 color: white;
 }
-
 
 #emailtitle {
 margin-left: 37%;
@@ -95,7 +91,6 @@ transition: all 1s;
 transform: scale(1.1);
 }
   
-  
 #css3icon {
 height: 125px;
 margin-left: 10%;
@@ -128,7 +123,6 @@ transition: all 1s;
 transform: scale(1.05);
 }
   
-  
 .ProjectTitle {
 color: #E8E7E7;
 font-style: italic;
@@ -149,8 +143,6 @@ margin-left: 4%;
 margin-top: 2%;
 }
 
-
-  
 .projectdesc {
 color: orange;
 font-style: italic;
@@ -170,18 +162,18 @@ color: white;
 
 
 #resumetab {
-margin-left: 55%;
+margin-left: 15%;
 margin-top: .5%;
 font-size: 16px;
 font-weight: bold;
 }
-@media screen and (max-width: 1000px) {
-  #resumetab { margin-left: 20%; }
+@media screen and (max-width: 500px) {
+  #resumetab { margin-left: 10%; }
   }
-
+    
 #resumelink {
 margin-top: .5%;
-padding-left: 1%;
+padding-left: 4%;
 }
 
 #namecontainer {
