@@ -134,6 +134,9 @@ color: #E8E7E7;
 font-style: italic;
 text-align: center;
 }
+@media screen and (max-width: 500px) {
+  .ProjectTitle  { font-size: 1.2em; }
+}
   
 .PortfolioItems {
 height: 525px;
